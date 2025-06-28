@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #bgVideo {
   position: fixed;
   top: 0;
@@ -84,3 +85,60 @@ button {
 button:hover {
   background-color: #2e5832;
 }
+=======
+/* Full-screen background with image */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
+              url('background.jpg') center/cover no-repeat fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered form container */
+.container {
+  background-color: rgba(255, 255, 255, 0.88);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #2d6a4f;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2d6a4f;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #22543d;
+}
+>>>>>>> b3aaa7b4da2bb80ddadc61393052d4f3da12a6f9
