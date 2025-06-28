@@ -1,22 +1,19 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>EcoVerse AI+</title>
+  <title>EcoVerse </title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- 🔁 Background Video -->
   <video autoplay muted loop id="bgVideo">
     <source src="background.mp4" type="video/mp4">
-    <!-- Fallback image if video doesn't load -->
     <img src="background.jpg" alt="Eco background">
   </video>
 
-  <!-- 🌿 Main Container Content -->
   <div class="container">
-    <h1>EcoVerse </h1>
+    <h1>EcoVerse</h1>
     <form action="/upload" method="POST" enctype="multipart/form-data">
       <label for="bill">Upload Bill Image:</label>
       <input type="file" name="bill" accept="image/*" required>
@@ -32,33 +29,3 @@
   </div>
 </body>
 </html>
-
-
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>EcoVerse AI+</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <h1>EcoVerse AI+</h1>
-    <form action="/upload" method="POST" enctype="multipart/form-data">
-      <label for="bill">Upload Bill Image (Electricity/Water):</label>
-      <input type="file" name="bill" accept="image/*" required>
-
-      <label for="language">Select Language:</label>
-      <select name="language">
-        <option value="english">English</option>
-        <option value="hindi">Hindi</option>
-      </select>
-
-      <button type="submit">Analyze Now</button>
-    </form>
-  </div>
-</body>
-</html>
-
->>>>>>> b3aaa7b4da2bb80ddadc61393052d4f3da12a6f9
