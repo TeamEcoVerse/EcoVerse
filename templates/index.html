@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EcoVerse</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <video autoplay muted loop id="bgVideo">
+    <source src="{{ url_for('static', filename='background.mp4') }}" type="video/mp4">
+    <img src="{{ url_for('static', filename='background.jpg') }}" alt="Eco background">
+  </video>
+
+  <div class="container">
+    <h1>EcoVerse</h1>
+    <form action="/submit" method="POST">
+      <label for="city">Your City:</label>
+      <input type="text" id="city" name="city" required>
+      <button type="button" class="voice-btn" onclick="startVoice('city')">🎤</button>
+
+      <label for="climate_issue">What climate issue are you facing?</label>
+      <select id="climate_issue" name="climate_issue">
+        <option value="pollution">Pollution</option>
+        <option value="water">Water Shortage</option>
+        <option value="heat">Extreme Heat</option>
+        <option value="flood">Flooding</option>
+        <option value="none">None</option>
+      </select>
+
+      <label for="transport">Transport Mode:</label>
+      <input type="text" id="transport" name="transport" required>
+      <button type="button" class="voice-btn" onclick="startVoice('transport')">🎤</button>
+
+      <label for="electricity">Electricity Usage (units/month):</label>
+      <input type="number" id="electricity" name="electricity" required>
+      <button type="button" class="voice-btn" onclick="startVoice('electricity')">🎤</button>
+
+      <button type="submit">Analyze Now</button>
+    </form>
+
+    <!-- Carbon Confessor -->
+    <form action="/confessor" method="GET" style="margin-top: 20px;">
+      <button type="submit" class="voice-btn">🎙 Confess Carbon Sins</button>
+    </form>
+  </div>
+
+  <script src="{{ url_for('static', filename='voiceInput.js') }}"></script>
+</body>
+</html>
