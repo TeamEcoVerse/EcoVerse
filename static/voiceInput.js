@@ -1,3 +1,4 @@
+//Function
 function startVoice(fieldId) {
   if (!('webkitSpeechRecognition' in window)) {
     alert('Your browser does not support voice input.');
