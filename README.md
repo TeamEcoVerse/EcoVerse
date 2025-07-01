@@ -62,13 +62,18 @@ Janhvi-	Backend Logic (Flask), Carbon Confessor Engine, Text-to-Speech Integrati
 
 🧭 Future Enhancements
 
+
 -📸 OCR-based Utility Bill Scanning for automated energy analysis
+
 
 -🌐 Support for Regional Languages (beyond English/Hindi
 
+
 -🕹️ Gamified Carbon Tracker with scoreboards and tips
 
+
 -🎧 Offline Voice Input using Vosk API
+
 
 💬 Philosophy
 EcoVerse isn’t just a tool—it’s your personal, offline carbon conscience.
