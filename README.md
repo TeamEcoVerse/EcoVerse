@@ -5,10 +5,14 @@ EcoVerse is a voice-assisted environmental tool designed to help users become mo
 
 🎙 Carbon Confessor — A witty “offline carbon therapist” that listens to your eco-sins and delivers guilt-tripping yet encouraging feedback.
 
+-----
+
 🛠 Tech Stack
 Frontend: HTML, CSS, JavaScript (Voice Input via Web Speech API)
 Backend: Python, Flask
 Libraries: Flask, speech_recognition, pyttsx3, jinja2
+
+----
 
 🌟 Features
 ✅ Eco Tip Generator
@@ -21,6 +25,9 @@ Libraries: Flask, speech_recognition, pyttsx3, jinja2
 -Inputs: Free-text or voice confession of carbon-heavy habits
 -Output: Sarcastic, witty, guilt-tripping feedback
 -Optional offline text-to-speech (TTS) using pyttsx3
+
+-------
+
 
 📁 Project Structure
 
@@ -43,6 +50,8 @@ EcoVerse/
 ├── voicetip.py                 # (Optional) TTS for confessions
 └── README.md
 
+---------
+
 🚀 Getting Started
 1. Install dependencies
    pip install flask pyttsx3 speechrecognition
@@ -52,6 +61,8 @@ EcoVerse/
 
 3. Open in browser
    http://127.0.0.1:5000
+
+--------
 
 ## 👥 Team & Contributions
 
