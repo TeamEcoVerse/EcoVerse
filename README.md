@@ -29,10 +29,10 @@ Libraries: Flask, speech_recognition, pyttsx3, jinja2
 -------
 
 
-📁 Project Structure
+## 📁 Project Structure
 
+```plaintext
 EcoVerse/
-│
 ├── static/
 │   ├── style.css
 │   ├── voiceInput.js
@@ -40,9 +40,9 @@ EcoVerse/
 │   └── background.mp4
 │
 ├── templates/
-│   ├── index.html               # Tip input form
-│   ├── tip.html                 # Tip output page
-│   └── carbon_confessor.html    # Confession input + feedback
+│   ├── index.html              # Tip input form
+│   ├── tip.html                # Tip output page
+│   └── carbon_confessor.html   # Confession input + feedback
 │
 ├── main.py                     # Core Flask application
 ├── tips_generator.py           # Logic for eco tip generation
