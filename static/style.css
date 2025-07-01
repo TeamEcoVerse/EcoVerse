@@ -1,4 +1,4 @@
-/* 🌄 Fullscreen Background Video */
+/* 🎥 Background Video Styling */
 #bgVideo {
   position: fixed;
   top: 0;
@@ -10,39 +10,40 @@
   opacity: 0.7;
 }
 
-/* ✅ General Page Styling */
+/* 🌿 Page Base */
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
   color: #2d3a2e;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
-/* 🌿 Container Styling */
+/* 🌿 Container */
 .container {
   max-width: 550px;
-  width: 90%;
+  margin: 100px auto 40px;
   padding: 30px;
-  background: rgba(255, 255, 255, 0.88);  
+  background: rgba(255, 255, 255, 0.88);
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(42, 63, 42, 0.15);
   border: 2px solid #cde4b0;
   backdrop-filter: blur(5px);
+  position: relative;
+  z-index: 1;
 }
 
-/* Heading */
+/* 🧾 Heading */
 h1 {
   text-align: center;
   color: #3b6c3f;
-  margin-bottom: 25px;
   font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
-/* Labels */
+/* 🏷️ Labels */
 label {
   display: block;
   margin-top: 15px;
@@ -50,7 +51,7 @@ label {
   color: #2d4739;
 }
 
-/* Inputs and Selects */
+/* 🖋️ Inputs and Selects */
 input, select {
   width: 100%;
   padding: 10px;
@@ -59,16 +60,11 @@ input, select {
   border-radius: 6px;
   background-color: #f4fdf4;
   font-size: 15px;
-  transition: border-color 0.3s ease;
 }
 
-input:focus, select:focus {
-  border-color: #6cbf84;
-  outline: none;
-}
-
-/* Button */
-button {
+/* 🔘 Submit Button */
+button[type="submit"],
+.container button {
   width: 100%;
   padding: 12px;
   background-color: #3b6c3f;
@@ -79,9 +75,33 @@ button {
   border-radius: 8px;
   margin-top: 25px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
-button:hover {
+button[type="submit"]:hover,
+.container button:hover {
   background-color: #2e5832;
+}
+
+/* 🎤 Voice Buttons */
+.voice-btn {
+  margin-top: 8px;
+  background-color: #d4eecb;
+  border: 1px solid #a6c8a1;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #2d3a2e;
+}
+
+.voice-btn:hover {
+  background-color: #c6e2bb;
+}
+
+/* 📝 Tip Text */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #244426;
+  text-align: center;
 }
