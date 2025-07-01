@@ -1,30 +1,35 @@
-🌿 EcoVerse
-EcoVerse is a voice-assisted environmental tool designed to help users become more climate-conscious through two impactful features:
+# 🌿 EcoVerse
 
-🔍 Eco Tip Generator — Personalized climate tips based on your city, issues, transport habits, and electricity usage.
+**EcoVerse** is a voice-assisted environmental tool designed to help users become more climate-conscious through two impactful features:
 
-🎙 Carbon Confessor — A witty “offline carbon therapist” that listens to your eco-sins and delivers guilt-tripping yet encouraging feedback.
+- 🔍 **Eco Tip Generator** — Personalized climate tips based on your city, issues, transport habits, and electricity usage.
+- 🎙 **Carbon Confessor** — A witty “offline carbon therapist” that listens to your eco-sins and delivers guilt-tripping yet encouraging feedback.
 
------
+---
 
-🛠 Tech Stack
-Frontend: HTML, CSS, JavaScript (Voice Input via Web Speech API)
-Backend: Python, Flask
-Libraries: Flask, speech_recognition, pyttsx3, jinja2
+## 🛠 Tech Stack
 
-----
+- **Frontend**: HTML, CSS, JavaScript (Voice Input via Web Speech API)  
+- **Backend**: Python, Flask  
+- **Libraries**: Flask, `speech_recognition`, `pyttsx3`, `jinja2`
 
-🌟 Features
-✅ Eco Tip Generator
--Inputs: City, Climate Issue, Transport Mode, Electricity Usage
--Output: Custom sustainability tip
--Supports voice input for all fields
--Designed to be inclusive for both rural and urban users
+---
 
-🎤 Carbon Confessor
--Inputs: Free-text or voice confession of carbon-heavy habits
--Output: Sarcastic, witty, guilt-tripping feedback
--Optional offline text-to-speech (TTS) using pyttsx3
+## 🌟 Features
+
+### ✅ Eco Tip Generator
+- **Inputs**: City, Climate Issue, Transport Mode, Electricity Usage  
+- **Output**: Custom sustainability tip  
+- **Voice Input** supported for all fields  
+- Inclusive design for both **rural and urban users**
+
+---
+
+### 🎤 Carbon Confessor
+- **Inputs**: Free-text or voice confession of carbon-heavy habits  
+- **Output**: Sarcastic, witty, guilt-tripping feedback  
+- **Optional**: Offline text-to-speech (TTS) using `pyttsx3`
+
 
 -------
 
