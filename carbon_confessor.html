@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Carbon Confessor</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <video autoplay muted loop id="bgVideo">
+    <source src="{{ url_for('static', filename='background.mp4') }}" type="video/mp4">
+  </video>
+
+  <div class="container">
+    <h1>🧠 Carbon Confessor</h1>
+    <form action="/confess" method="POST">
+      <label for="confession">Confess Your Carbon Habits:</label>
+      <textarea id="confession" name="confession" rows="4" required></textarea>
+      <button type="submit">Submit Confession</button>
+    </form>
+
+    {% if feedback %}
+      <h2>🎤 Feedback</h2>
+      <p>{{ feedback }}</p>
+    {% endif %}
+  </div>
+</body>
+</html>
