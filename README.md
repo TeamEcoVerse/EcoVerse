@@ -55,14 +55,19 @@ EcoVerse/
 
 👥 Team & Contributions
 Kiyara Chandrawat	-Frontend Design (HTML/CSS), UI Styling, Voice Input Integration
+
 Janhvi-	Backend Logic (Flask), Carbon Confessor Engine, Text-to-Speech Integration
 
 🤝 We collaborated closely to ensure a smooth, feature-rich, and intuitive experience.
 
 🧭 Future Enhancements
+
 -📸 OCR-based Utility Bill Scanning for automated energy analysis
+
 -🌐 Support for Regional Languages (beyond English/Hindi
+
 -🕹️ Gamified Carbon Tracker with scoreboards and tips
+
 -🎧 Offline Voice Input using Vosk API
 
 💬 Philosophy
