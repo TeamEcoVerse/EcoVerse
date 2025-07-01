@@ -54,7 +54,8 @@ EcoVerse/
 ├── feedback_generator.py       # Rule-based witty feedback engine
 ├── voicetip.py                 # (Optional) TTS for confessions
 └── README.md
-
+...
+```
 ---------
 
 🚀 Getting Started
