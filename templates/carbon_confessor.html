@@ -12,15 +12,16 @@
 
   <div class="container">
     <h1>🧠 Carbon Confessor</h1>
-    <form action="/confess" method="POST">
+
+    <form action="/process_confession" method="POST">
       <label for="confession">Confess Your Carbon Habits:</label>
-      <textarea id="confession" name="confession" rows="4" required></textarea>
+      <textarea id="confession" name="confession" rows="4" required>{{ confession or '' }}</textarea>
       <button type="submit">Submit Confession</button>
     </form>
 
     {% if feedback %}
       <h2>🎤 Feedback</h2>
-      <p>{{ feedback }}</p>
+      <p class="feedback">{{ feedback }}</p>
     {% endif %}
   </div>
 </body>
