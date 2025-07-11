@@ -1,4 +1,4 @@
-/*ytgvhgvj 🎥 Background Video Styling */
+/* 🎥 Background Video Styling */
 #bgVideo {
   position: fixed;
   top: 0;
@@ -12,22 +12,23 @@
 
 /* 🌿 Page Base */
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
   margin: 0;
   padding: 0;
   color: #2d3a2e;
   overflow-x: hidden;
   overflow-y: auto;
+  background-color: #f0fdf4;
 }
 
 /* 🌿 Container */
 .container {
-  max-width: 550px;
+  max-width: 600px;
   margin: 100px auto 40px;
-  padding: 30px;
-  background: rgba(255, 255, 255, 0.88);
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(42, 63, 42, 0.15);
+  padding: 35px;
+  background: rgba(255, 255, 255, 0.93);
+  border-radius: 14px;
+  box-shadow: 0 0 25px rgba(42, 63, 42, 0.12);
   border: 2px solid #cde4b0;
   backdrop-filter: blur(5px);
   position: relative;
@@ -38,7 +39,7 @@ body {
 h1 {
   text-align: center;
   color: #3b6c3f;
-  font-size: 28px;
+  font-size: 30px;
   margin-top: 0;
   margin-bottom: 25px;
 }
@@ -46,23 +47,28 @@ h1 {
 /* 🏷️ Labels */
 label {
   display: block;
-  margin-top: 15px;
+  margin-top: 18px;
   font-weight: 600;
   color: #2d4739;
+  font-size: 15px;
 }
 
-/* 🖋️ Inputs and Selects */
-input, select {
+/* 🖋️ Inputs, Textareas, and Selects */
+input,
+select,
+textarea {
   width: 100%;
-  padding: 10px;
-  margin-top: 5px;
+  padding: 12px;
+  margin-top: 6px;
   border: 1px solid #b8cbb2;
   border-radius: 6px;
   background-color: #f4fdf4;
   font-size: 15px;
+  box-sizing: border-box;
+  resize: vertical;
 }
 
-/* 🔘 Submit Button */
+/* 🔘 Submit and Primary Buttons */
 button[type="submit"],
 .container button {
   width: 100%;
@@ -75,6 +81,7 @@ button[type="submit"],
   border-radius: 8px;
   margin-top: 25px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button[type="submit"]:hover,
@@ -98,10 +105,32 @@ button[type="submit"]:hover,
   background-color: #c6e2bb;
 }
 
-/* 📝 Tip Text */
+/* 📝 Tip & Feedback Text */
 p {
   font-size: 18px;
   line-height: 1.6;
   color: #244426;
   text-align: center;
 }
+
+/* 💬 Confessor Feedback Section */
+h2 {
+  text-align: center;
+  color: #2c6239;
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.container p.feedback {
+  background-color: #f0fff0;
+  padding: 15px;
+  margin-top: 15px;
+  border-left: 4px solid #4caf50;
+  border-radius: 8px;
+  font-size: 17px;
+  color: #234524;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+
